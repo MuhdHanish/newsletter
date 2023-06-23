@@ -11,7 +11,7 @@ const isLocalhost = Boolean(
 );
 export const SERVER_URL = isLocalhost
   ? "http://localhost:5000/"
-  : "https://api.supaemaileditor.techfortified.com/";
+  : process.env.REACT_SERVER_URL;
 
 export const API_URL = `${SERVER_URL}api/`;
 
