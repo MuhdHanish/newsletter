@@ -6,7 +6,7 @@ function App() {
   return (
     <div className="App">
       <header className="App-header">
-        React Custom Media Library Using React Email Editor (Drag & Drop)
+      Email Editor (Drag & Drop)
       </header>
       <EmailEditor />
     </div>
